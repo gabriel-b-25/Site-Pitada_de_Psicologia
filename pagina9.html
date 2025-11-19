@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF8">
+		<title> PRINCIPAIS ABORDAGENS E  AUTORES </title>
+		<link rel="stylesheet" href="style2.css">
+		<link href="https://fonts.googleapis.com/css2?family=Cardo" rel="stylesheet">
+	</head>
+	<body>
+		<main>
+			<section class="fundoverde">
+				<header> 
+					<h1 class="titulo-principal"> PITADA DE PSICOLOGIA </h1> 
+				</header>
+				<nav>
+					<div class="menuprincipal">
+						<a href="index.html">
+							<img id="iconpsychology" src=imgs/iconpsychology.png>
+						</a>
+						<h2>
+							<a href="pagina2.html"> PRINCIPAIS ABORDAGENS E AUTORES </a>
+							<a href="pagina6.html"> ALGUMAS ÁREAS DA PSICOLOGIA </a> 
+							<a href="pagina8.html"> PSICOLOGIA E COTIDIANO </a> 
+							<a href="pagina9.html"> SOBRE </a>
+						</h2>
+					</div>
+				</nav>
+			</section>
+
+			<article>
+				<section class="sobre">
+					<h5> 
+						<p> Meu nome é Gabriel, cursei quatro anos de Psicologia, mas não conclui. </p>
+						<p>Pensei neste conteúdo com base na minha experiência, tendo em vista que se fosse colocado online, poderia ajudar as pessoas a conhecerem melhor as diferentes abordagens da Psicologia. </p>
+						<p> Esse site foi idealizado como parte da disciplina de Fundamentos de Web Design, do curso superior em Análise e Desenvolvimento de Sistemas do IFTM.</p>
+					</h5>
+					<img id="img-sobre" src=imgs/img-sobre.png>
+				</section>
+				<section class="mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93739.96322180956!2d-48.10196399688722!3d-19.7186563832075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bad18160f7b4d3%3A0x5d0c29cbc9d3e469!2sInstituto%20Federal%20do%20Tri%C3%A2ngulo%20Mineiro%20-%20Campus%20Uberaba%20(Parque%20Tecnol%C3%B3gico)!5e1!3m2!1spt-BR!2sbr!4v1763248618109!5m2!1spt-BR!2sbr" width="650" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</section>
+			</article>
+									
+			<form>
+				<section class="contato-texto">
+					<div class="titulo-contato">
+						<p> Entre em contato: </p>
+					</div>
+					<p></p>
+					<p></p>
+					<label for="nomesobre">Seu nome e sobrenome </label>
+					<input type="text" id="nomesobre" maxlength="30">
+
+					<label for="mensagem">Deixe uma mensagem </label>
+					<textarea type="text" cols="53" rows="15" id="mensagem" > </textarea>
+				</section>
+
+				<section>
+					<div class="titulo-radio">
+						<p> Agradeço seu contato! </p> <p>Como encontrou este site? </p>
+					</div>
+
+					<section class="contato-radio">
+						<label for="indicacao">	<input type="radio" name="resp" value="opc1" id="indicacao" checked="checked"> Indicação de amigos </label>
+								
+						<label for="redes"> <input type="radio" name="resp" value="opc2" id="redes"> Redes Sociais </label>
+								
+						<label for="internet"><input type="radio" name="resp" value="opc3" id="internet" > Pesquisa na internet </label>
+								
+						<label for="iftm"><input type="radio" name="resp" value="opc4" id="iftm"> Sou do IFTM </label>
+
+						<label for="outro"><input type="radio" name="resp" value="opc4" id="outro"> Outro:</label> <label for="qual"> Qual? <input type="text" name="resp" id="qual"></label>
+					</section>
+					<input type="submit" value="Enviar" class="enviar">
+				</section>
+			</form>
+		</main>
+	</body>
+</html>
