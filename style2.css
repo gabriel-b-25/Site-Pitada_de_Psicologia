@@ -1,13 +1,20 @@
 /*ARQUIVO STYLE PARA PÁGINAS 2-9 */
 
-body {font-family: 'cardo'; background-color: #FEFF78;
+body {font-family: 'cardo'; 
+	background-color: #FEFF78; 
 	margin: 5px 15px; min-height: 100vh; width: auto; overflow-x: hidden;}
 
 h1 {font-size: 40px; text-align: center; color:#FFFFFF}
 
 .caixa-laranja {text-align: center; background-color: #FF9052; 
-	border-radius: 10px; padding: 10px; margin: 4%;}
-.mensagem-pg1 {text-align: center; font-size: 20px; }
+	border-radius: 10px; padding: 10px; margin: 4%;
+	box-shadow: 10px 10px 6px #826b6b;}
+
+.mensagem-pg1 {text-align: center; font-size: 20px;
+	font-weight:bold }
+
+.mensagem-pg1:first-line {font-size: 28px; color: black}
+
 #img-pgprinc {width: 15%}
 
 /*==============================================================*/
@@ -35,8 +42,11 @@ h1 {font-size: 40px; text-align: center; color:#FFFFFF}
 /*==============================================================*/
 .submenu {background-color:#0C5049; border-radius: 10px; width: 25%; 
 	min-height: 80%; display: inline-block; position: absolute; 
-	left:15px; line-height: 140%; letter-spacing: 2px}
+	left:15px; line-height: 140%; letter-spacing: 2px;
+	opacity: 0.5; transition: 300ms}
 	ul {position: relative; max-width: 88%}
+
+.submenu:hover {opacity: 1}
 
 .submenu a {color: #FFFFFF; text-decoration: none}
 .submenu a:hover {text-decoration: underline;}
@@ -82,20 +92,25 @@ h1 {font-size: 40px; text-align: center; color:#FFFFFF}
 /*=========================PG.9=====================================*/
 
 .sobre {text-align: center; border: 2px groove #000000;
-	border-radius: 10px; padding: 10px;
-	font-size: 20px; margin-top: 4%; margin-left: 18%; margin-right: 18%} 
+	border-radius: 10px; padding: 15px;
+	font-size: 20px; margin-top: 4%; 
+	margin-left: 18%; margin-right: 18%;
+	box-shadow: inset 4px -4px 3px #bea719, inset -4px 4px 3px #bea719} 
 
 #img-sobre {max-width: 40%; margin-top: 5px; margin-bottom: 5px}
 .mapa {text-align: center; margin: 20px 0 20px 0}
 
 
-/* para o formulário na pg9: */
+/*============== para o formulário na pg9: =================== */
 
 .titulo-contato {display: block; font-size: 20px; 
 	position: relative; left: 15%; right: 15%;
 	text-transform: uppercase; font-weight: bold; color: #FFFFFF; 
-	letter-spacing: 2px; background-color: #0C5049; width: 75%;
-	border-radius: 5px; padding: 3px;}
+	letter-spacing: 2px; 
+	background-color: #0C5049; box-shadow: -4px 4px 3px #057569;
+	width: 75%;
+	border-radius: 5px; padding: 3px;
+	text-shadow: -2px 2px 1px black}
 
 .contato-texto {display: block; text-align: center; font-weight: bold;
 	color: #000000;	margin-top: 50 20px;}
@@ -110,7 +125,7 @@ h1 {font-size: 40px; text-align: center; color:#FFFFFF}
 textarea {border-radius: 5px; padding: 8px; width: 35%}
 
 
-/* para a parte radio */
+/*======= para a parte radio =========*/
 
 .titulo-radio {display: block; font-size: 18px; 
 	text-align: center; text-transform: uppercase; 
@@ -129,4 +144,13 @@ textarea {border-radius: 5px; padding: 8px; width: 35%}
 .enviar:hover {font-size: 20px; transform: translate(0px, 2px); 
 	box-shadow: 1px 2px 10px #0C5049;}
 
+/* ====================================================== */
+footer {font-family: 'cardo';	text-align: center; font-size: 16px;
+	font-weight: 600; margin: 50px 0 20px 0;
+	color: #000000; padding: 8px;
+	background: rgba(12,80,73,0.3);
+	border: 2px groove black; border-radius: 10px;
+	transition: 300ms}
 
+footer:hover {background: rgba(12,80,73,1);
+	color: #FFFFFF}
