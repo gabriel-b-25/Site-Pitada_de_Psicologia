@@ -1,12 +1,14 @@
 /*ARQUIVO STYLE PARA PÁGINAS 2-9 */
 
 body {font-family: 'cardo'; 
-	background-color: #FEFF78; 
-	margin: 5px 15px; min-height: 100vh; width: auto; overflow-x: hidden;}
+	background-color: rgba(254,255,120,0.8); 
+	margin: 2% 4%; min-height: 100vh; 
+	width: auto; overflow-x: hidden;}
 
 h1 {font-size: 40px; text-align: center; color:#FFFFFF}
 
-.caixa-laranja {text-align: center; background-color: #FF9052; 
+.caixa-laranja {text-align: center; 
+	background-color: rgba(255, 144, 82, 0.9); 
 	border-radius: 10px; padding: 10px; margin: 4%;
 	box-shadow: 10px 10px 6px #826b6b;}
 
@@ -35,70 +37,90 @@ h1 {font-size: 40px; text-align: center; color:#FFFFFF}
 	border-radius: 10px; border: 2px groove #FFFFFF; 
 	margin-inline: 5px; padding: 2px}
 .menuprincipal a:hover {text-decoration: underline;}
-/*==============================================================*/
-.caminho {font-size: 20px; text-align: left; letter-spacing: 1px; 
-	padding: 5px}
 
 /*==============================================================*/
-.submenu {background-color:#0C5049; border-radius: 10px; width: 25%; 
-	min-height: 80%; display: inline-block; position: absolute; 
-	left:15px; line-height: 140%; letter-spacing: 2px;
-	opacity: 0.5; transition: 300ms}
-	ul {position: relative; max-width: 88%}
+.caminho {font-size: 20px; text-align: left; 
+	letter-spacing: 1px; 
+	padding: 5px 0 15px 0}
+
+/*==============================================================*/
+.submenu {background-color:#0C5049; border-radius: 10px; 
+	width: 25%;	min-height: 50%; margin: 0 0 0 3%;
+	display: inline-block; 
+	position: absolute; left:15px; 
+	line-height: 140%; letter-spacing: 2px;
+	opacity: 0.5; transition: 300ms;}
+
+	ul {position: relative; max-width: 80%;
+		max-height: 80%; padding: 0 0 0 40px;
+		overflow-wrap: break-word;}
 
 .submenu:hover {opacity: 1}
 
 .submenu a {color: #FFFFFF; text-decoration: none}
 .submenu a:hover {text-decoration: underline;}
 
-#icone-voltar {max-width: 10%; 
+#icone-voltar {max-width: 12%; 
 	position: relative; left:80%; top: 5px;}	
 
 .lista {color: #FFFFFF;
 	text-transform: uppercase; 
-	text-align: left; font-size: 20px;
+	text-align: left; font-size: 18px;
 	width: auto; list-style-type: disc;}
 
 /*==============================================================*/
   /*h3e h4 são o bloco de texto da pg2 
     h5 é da pg9 */
 
-.conteudocentral1 {color: #000000; display: inline-block; position: relative; 
-	left:28%; width: 68%; border: 2px groove #000000; border-radius: 10px; 
-	padding: 10px; margin-top: 30px; margin-bottom: 10px}
+.conteudocentral1 {color: #000000; display: inline-block; 
+	position: relative; 
+	left: 28%; width: 68%; 
+	border: 2px groove #000000; border-radius: 10px; 
+	padding: 10px; margin: 10px 0 10px 10px}
+	
 	h3 {font-weight: bold; text-transform:uppercase; 
-		text-align: center; font-size: 28px;}
-	h4, h5 {text-transform:none; font-weight: medium; text-align: justify; font-size: 20px; 
+		text-align: center; font-size: 28px}
+	h3 p {padding-bottom: 10px}	
+	h4, h5 {text-transform:none; font-weight: medium; 
+		text-align: justify; font-size: 20px; 
 		line-height: 140%; letter-spacing: 1px}
 
 /* para videos - pgs 4 e 5 */
-.video {max-width: 6%; padding: 10px; 
-	margin: 2% 20% 2% 25%; display: block;}
+.video {width: 100%; height: 100%;
+	padding: 1% 1% 1% 6%;
+	position: relative; 
+	display: block;}
 
-.conteudocentral2 {color: #000000; display: inline-block; position: relative; 
-	left:28%; width: 68%; border: 2px groove #000000; border-radius: 10px; 
-	padding: 10px; margin-top: 15px; margin-bottom: 20px}
+.conteudocentral2 {color: #000000; display: inline-block; 
+	position: relative;	
+	left: 28%; width: 68%; 
+	border: 2px groove #000000; border-radius: 10px; 
+	padding: 10px; margin: 15px 0 20px 10px}
+
 	h3 {font-weight: bold; text-transform:uppercase; 
 		text-align: center; font-size: 28px;}
 	h4 {text-transform:none; text-align: justify; font-size: 20px; 
 		line-height: 140%; letter-spacing: 1px}
 
 /*==============================================================*/
-#img-pg2 {display: inline; position:relative;
-	left:40%; top:90%; width: auto; height: 200px}
+#img-pg2 {display: block; position: relative;
+	width: 40%;
+	padding: 2% 40% 2% 35% }
 
-#submenu-pg7 {width: 75%}
+#submenu-pg7 {width: 75%; overflow-wrap: break-word;}
 
-/*=========================PG.9=====================================*/
+/*=========================PG.9=================================*/
 
 .sobre {text-align: center; border: 2px groove #000000;
 	border-radius: 10px; padding: 15px;
 	font-size: 20px; margin-top: 4%; 
 	margin-left: 18%; margin-right: 18%;
-	box-shadow: inset 4px -4px 3px #bea719, inset -4px 4px 3px #bea719} 
+	box-shadow: inset 3px -3px 3px #057569, inset -3px 3px 3px #057569} 
 
 #img-sobre {max-width: 40%; margin-top: 5px; margin-bottom: 5px}
-.mapa {text-align: center; margin: 20px 0 20px 0}
+.mapa {text-align: center; 
+	margin: 25px 0 25px 0;
+	width: 100%; height: 100%}
 
 
 /*============== para o formulário na pg9: =================== */
@@ -147,10 +169,57 @@ textarea {border-radius: 5px; padding: 8px; width: 35%}
 /* ====================================================== */
 footer {font-family: 'cardo';	text-align: center; font-size: 16px;
 	font-weight: 600; margin: 50px 0 20px 0;
-	color: #000000; padding: 8px;
+	color: #000000; padding: 2px;
 	background: rgba(12,80,73,0.3);
 	border: 2px groove black; border-radius: 10px;
 	transition: 300ms}
 
 footer:hover {background: rgba(12,80,73,1);
 	color: #FFFFFF}
+
+/*================= Para dispositivos moveis ================ */
+
+@media screen and (max-width: 450px) {
+	body {background: rgba(254,255,120,0.5);}
+		.fundoverde, .titulo-principal {width: 105%}
+		
+		.submenu {width: 25%; margin: 0 0 0 1%;
+			overflow-x: scroll; 
+			max-height: 70%}
+		.submenu ul {padding: 0 0 0 20px;}
+		.submenu nav, .lista {max-width: 90%;
+			font-size: 80%;	line-height: 120%}
+
+		#img-pg2 {width: 50%}
+		.video iframe {width: 85%; height: 20%;}
+		/*para manter a proporcao de 560 e 320 do iframe */
+		
+		.titulo-principal {font-size: 90%}
+		.menuprincipal h2 {font-size: 80%}
+		.caminho {font-size: 80%}
+
+		.conteudocentral1 h3, h4 {font-size: 90%;}
+			h3 p {padding-bottom: 10px}
+		.conteudocentral2 h3, h4 {font-size: 90%}
+			h3 p {padding-bottom: 10px}
+				
+		.mapa iframe {width: 85%; height: 50%;
+			text-align: left;}
+
+		.contato-radio {left: 25%}
+		.sobre h5, .titulo-radio, .enviar {font-size: 90%}
+		.contato-radio, .enviar {left: 15%}
+		.contato-radio label, .contato-radio input {font-size: 90%}
+		.contato-texto label, .contato-texto input, .titulo-contato {font-size: 90%;
+			text-align: center}
+
+		.sobre, .enviar {margin: 4% 4% 1% 4%}
+		form, form p, form label  {margin: 10px 10px}
+		form textarea {width: 60%;}
+		.contato-texto #nomesobre, #mensagem, #email {width: 100%; 
+			text-align: center;}
+
+		footer p {font-size: 80%; 
+			position: relative; bottom: 100%;}
+}
+
